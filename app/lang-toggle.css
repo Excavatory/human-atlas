@@ -1,0 +1,8 @@
+/* Language toggle in top actions */
+.lang-toggle{display:inline-flex;align-items:center;gap:2px;padding:2px;border:1px solid var(--border);border-radius:10px;background:#ffffffd9}
+.lang-toggle button{height:34px!important;min-width:36px;padding:0 10px!important;border:0!important;border-radius:8px!important;font-size:11px!important;font-weight:600;letter-spacing:.04em;color:#697582}
+.lang-toggle button.active,.lang-toggle button[aria-pressed=true]{background:#263b48!important;color:#fff!important}
+@media(max-width:767px){
+ .lang-toggle{padding:1px}
+ .lang-toggle button{height:36px!important;min-width:34px;padding:0 8px!important;font-size:10px!important}
+}
